@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document title="SSLScan Results" version="1.8.2-win" web="http://www.titania.co.uk">
+ <ssltest host="csc.com" port="443">
+  <cipher status="rejected" sslversion="SSLv2" bits="168" cipher="DES-CBC3-MD5" kx="RSA" au="RSA" enc="3DES(168)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv2" bits="56" cipher="DES-CBC-MD5" kx="RSA" au="RSA" enc="DES(56)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv2" bits="128" cipher="IDEA-CBC-MD5" kx="RSA" au="RSA" enc="IDEA(128)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv2" bits="40" cipher="EXP-RC2-CBC-MD5" kx="RSA(512)" au="RSA" enc="RC2(40)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv2" bits="128" cipher="RC2-CBC-MD5" kx="RSA" au="RSA" enc="RC2(128)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv2" bits="40" cipher="EXP-RC4-MD5" kx="RSA(512)" au="RSA" enc="RC4(40)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv2" bits="128" cipher="RC4-MD5" kx="RSA" au="RSA" enc="RC4(128)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv3" bits="256" cipher="ADH-AES256-SHA" kx="DH" au="None" enc="AES(256)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="256" cipher="DHE-RSA-AES256-SHA" kx="DH" au="RSA" enc="AES(256)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="256" cipher="DHE-DSS-AES256-SHA" kx="DH" au="DSS" enc="AES(256)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="256" cipher="AES256-SHA" kx="RSA" au="RSA" enc="AES(256)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="128" cipher="ADH-AES128-SHA" kx="DH" au="None" enc="AES(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="128" cipher="DHE-RSA-AES128-SHA" kx="DH" au="RSA" enc="AES(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="128" cipher="DHE-DSS-AES128-SHA" kx="DH" au="DSS" enc="AES(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="128" cipher="AES128-SHA" kx="RSA" au="RSA" enc="AES(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="168" cipher="ADH-DES-CBC3-SHA" kx="DH" au="None" enc="3DES(168)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="56" cipher="ADH-DES-CBC-SHA" kx="DH" au="None" enc="DES(56)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="40" cipher="EXP-ADH-DES-CBC-SHA" kx="DH(512)" au="None" enc="DES(40)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="128" cipher="ADH-RC4-MD5" kx="DH" au="None" enc="RC4(128)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv3" bits="40" cipher="EXP-ADH-RC4-MD5" kx="DH(512)" au="None" enc="RC4(40)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv3" bits="168" cipher="EDH-RSA-DES-CBC3-SHA" kx="DH" au="RSA" enc="3DES(168)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="56" cipher="EDH-RSA-DES-CBC-SHA" kx="DH" au="RSA" enc="DES(56)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="40" cipher="EXP-EDH-RSA-DES-CBC-SHA" kx="DH(512)" au="RSA" enc="DES(40)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="168" cipher="EDH-DSS-DES-CBC3-SHA" kx="DH" au="DSS" enc="3DES(168)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="56" cipher="EDH-DSS-DES-CBC-SHA" kx="DH" au="DSS" enc="DES(56)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="40" cipher="EXP-EDH-DSS-DES-CBC-SHA" kx="DH(512)" au="DSS" enc="DES(40)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="168" cipher="DES-CBC3-SHA" kx="RSA" au="RSA" enc="3DES(168)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="56" cipher="DES-CBC-SHA" kx="RSA" au="RSA" enc="DES(56)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="40" cipher="EXP-DES-CBC-SHA" kx="RSA(512)" au="RSA" enc="DES(40)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="128" cipher="IDEA-CBC-SHA" kx="RSA" au="RSA" enc="IDEA(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="40" cipher="EXP-RC2-CBC-MD5" kx="RSA(512)" au="RSA" enc="RC2(40)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv3" bits="128" cipher="RC4-SHA" kx="RSA" au="RSA" enc="RC4(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="128" cipher="RC4-MD5" kx="RSA" au="RSA" enc="RC4(128)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv3" bits="40" cipher="EXP-RC4-MD5" kx="RSA(512)" au="RSA" enc="RC4(40)" mac="MD5" />
+  <cipher status="rejected" sslversion="SSLv3" bits="0" cipher="NULL-SHA" kx="RSA" au="RSA" enc="None" mac="SHA1" />
+  <cipher status="rejected" sslversion="SSLv3" bits="0" cipher="NULL-MD5" kx="RSA" au="RSA" enc="None" mac="MD5" />
+  <cipher status="rejected" sslversion="TLSv1" bits="256" cipher="ADH-AES256-SHA" kx="DH" au="None" enc="AES(256)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="256" cipher="DHE-RSA-AES256-SHA" kx="DH" au="RSA" enc="AES(256)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="256" cipher="DHE-DSS-AES256-SHA" kx="DH" au="DSS" enc="AES(256)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="256" cipher="AES256-SHA" kx="RSA" au="RSA" enc="AES(256)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="128" cipher="ADH-AES128-SHA" kx="DH" au="None" enc="AES(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="128" cipher="DHE-RSA-AES128-SHA" kx="DH" au="RSA" enc="AES(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="128" cipher="DHE-DSS-AES128-SHA" kx="DH" au="DSS" enc="AES(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="128" cipher="AES128-SHA" kx="RSA" au="RSA" enc="AES(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="168" cipher="ADH-DES-CBC3-SHA" kx="DH" au="None" enc="3DES(168)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="56" cipher="ADH-DES-CBC-SHA" kx="DH" au="None" enc="DES(56)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="40" cipher="EXP-ADH-DES-CBC-SHA" kx="DH(512)" au="None" enc="DES(40)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="128" cipher="ADH-RC4-MD5" kx="DH" au="None" enc="RC4(128)" mac="MD5" />
+  <cipher status="rejected" sslversion="TLSv1" bits="40" cipher="EXP-ADH-RC4-MD5" kx="DH(512)" au="None" enc="RC4(40)" mac="MD5" />
+  <cipher status="rejected" sslversion="TLSv1" bits="168" cipher="EDH-RSA-DES-CBC3-SHA" kx="DH" au="RSA" enc="3DES(168)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="56" cipher="EDH-RSA-DES-CBC-SHA" kx="DH" au="RSA" enc="DES(56)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="40" cipher="EXP-EDH-RSA-DES-CBC-SHA" kx="DH(512)" au="RSA" enc="DES(40)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="168" cipher="EDH-DSS-DES-CBC3-SHA" kx="DH" au="DSS" enc="3DES(168)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="56" cipher="EDH-DSS-DES-CBC-SHA" kx="DH" au="DSS" enc="DES(56)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="40" cipher="EXP-EDH-DSS-DES-CBC-SHA" kx="DH(512)" au="DSS" enc="DES(40)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="168" cipher="DES-CBC3-SHA" kx="RSA" au="RSA" enc="3DES(168)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="56" cipher="DES-CBC-SHA" kx="RSA" au="RSA" enc="DES(56)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="40" cipher="EXP-DES-CBC-SHA" kx="RSA(512)" au="RSA" enc="DES(40)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="128" cipher="IDEA-CBC-SHA" kx="RSA" au="RSA" enc="IDEA(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="40" cipher="EXP-RC2-CBC-MD5" kx="RSA(512)" au="RSA" enc="RC2(40)" mac="MD5" />
+  <cipher status="rejected" sslversion="TLSv1" bits="128" cipher="RC4-SHA" kx="RSA" au="RSA" enc="RC4(128)" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="128" cipher="RC4-MD5" kx="RSA" au="RSA" enc="RC4(128)" mac="MD5" />
+  <cipher status="rejected" sslversion="TLSv1" bits="40" cipher="EXP-RC4-MD5" kx="RSA(512)" au="RSA" enc="RC4(40)" mac="MD5" />
+  <cipher status="rejected" sslversion="TLSv1" bits="0" cipher="NULL-SHA" kx="RSA" au="RSA" enc="None" mac="SHA1" />
+  <cipher status="rejected" sslversion="TLSv1" bits="0" cipher="NULL-MD5" kx="RSA" au="RSA" enc="None" mac="MD5" />
+ <renegotiation supported="1" secure="0"/>
+ </ssltest>
+</document>

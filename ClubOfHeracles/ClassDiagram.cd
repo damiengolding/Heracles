@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ClubOfHeracles.Constants" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubOfHeracles.InputFileRecog" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAABAAACAAAAIAABAAACAQAAQACAAAgA=</HashCode>
+      <FileName>InputFileRecog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubOfHeracles.PortSpecification" Collapsed="true">
+    <Position X="0.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAIAAAAAAABAAIAAQAAAAAAABBAAAAQ=</HashCode>
+      <FileName>PortSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubOfHeracles.StaticNetworkFunctions" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAQAAAAAAAAAAAABAAAAAAAAAAAAI=</HashCode>
+      <FileName>StaticNetworkFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubOfHeracles.IpAddress" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABABAAQkIAEAKKgAAoACAAIDIAIIIAAEgWAIWCAiA=</HashCode>
+      <FileName>IpAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClubOfHeracles.CvssSpecification" Collapsed="true">
+    <Position X="2.75" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CvssSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Consolas" Size="10" />
+</ClassDiagram>

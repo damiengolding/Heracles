@@ -1,0 +1,25 @@
+# Nmap 7.80 scan initiated Sat Jan 18 06:48:44 2020 as: nmap -vv -Pn -T5 -sS -A -oA wellknown --script=ip-forwarding --script=ip-geolocation-ipinfodb --script-args=ip-forwarding.target=www.google.com -p 80,443 -iL hnames.txt
+# Ports scanned: TCP(2;80,443) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 40.113.200.201 ()	Status: Up
+Host: 40.113.200.201 ()	Ports: 80/filtered/tcp//http///, 443/open/tcp//ssl|https//Kestrel/	Seq Index: 262	IP ID Seq: All zeros
+Host: 129.42.38.10 ()	Status: Up
+Host: 129.42.38.10 ()	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///
+Host: 34.212.245.99 (ec2-34-212-245-99.us-west-2.compute.amazonaws.com)	Status: Up
+Host: 34.212.245.99 (ec2-34-212-245-99.us-west-2.compute.amazonaws.com)	Ports: 80/filtered/tcp//http///, 443/open/tcp//ssl|ssl//Apache httpd (SSL-only mode)/
+Host: 172.217.10.142 (lga34s16-in-f14.1e100.net)	Status: Up
+Host: 172.217.10.142 (lga34s16-in-f14.1e100.net)	Ports: 80/filtered/tcp//http///, 443/open/tcp//ssl|https//gws/	IP ID Seq: All zeros
+Host: 156.151.59.35 ()	Status: Up
+Host: 156.151.59.35 ()	Ports: 80/open/tcp//http-proxy//F5 BIG-IP load balancer http proxy/, 443/open/tcp//ssl|http-proxy//F5 BIG-IP load balancer http proxy/	IP ID Seq: All zeros
+Host: 13.107.21.200 ()	Status: Up
+Host: 13.107.21.200 ()	Ports: 80/filtered/tcp//http///, 443/open/tcp//ssl|upnp//Microsoft IIS httpd/	IP ID Seq: All zeros
+Host: 157.240.220.35 (edge-star-mini-shv-01-bos3.facebook.com)	Status: Up
+Host: 157.240.220.35 (edge-star-mini-shv-01-bos3.facebook.com)	Ports: 80/open/tcp//http///, 443/open/tcp//ssl|https///	IP ID Seq: All zeros
+Host: 104.244.42.129 ()	Status: Up
+Host: 104.244.42.129 ()	Ports: 80/filtered/tcp//http///, 443/open/tcp//ssl|https//tsa_a/	IP ID Seq: All zeros
+Host: 192.30.253.113 (lb-192-30-253-113-iad.github.com)	Status: Up
+Host: 192.30.253.113 (lb-192-30-253-113-iad.github.com)	Ports: 80/filtered/tcp//http///, 443/open/tcp//ssl|https//GitHub.com/	IP ID Seq: All zeros
+Host: 172.217.9.238 (lga34s11-in-f14.1e100.net)	Status: Up
+Host: 172.217.9.238 (lga34s11-in-f14.1e100.net)	Ports: 80/filtered/tcp//http///, 443/open/tcp//ssl|https//gws/	IP ID Seq: All zeros
+Host: 176.32.103.205 ()	Status: Up
+Host: 176.32.103.205 ()	Ports: 80/filtered/tcp//http///, 443/open/tcp//ssl|https//Server/	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Sat Jan 18 06:51:29 2020 -- 11 IP addresses (11 hosts up) scanned in 165.09 seconds

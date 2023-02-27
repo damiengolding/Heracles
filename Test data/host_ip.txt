@@ -1,0 +1,11 @@
+microsoft.com 13.77.161.179
+ibm.com 129.42.38.10
+dxc.com 34.212.245.99
+google.com 172.217.22.78
+sun.com 156.151.59.35
+bing.com 13.107.21.200
+facebook.com 31.13.71.36
+twitter.com 104.244.42.129
+github.com 140.82.118.4
+youtube.com 172.217.12.174
+amazon.com 176.32.98.166

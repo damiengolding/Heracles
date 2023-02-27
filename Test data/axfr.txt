@@ -1,0 +1,49 @@
+
+; <<>> DiG 9.8.4-rpz2+rl005.12-P1 <<>> @10.0.00.10 victim.strikeforce.net axfr
+; (1 server found)
+;; global options: +cmd
+victim.strikeforce.net.	3600	IN	SOA	vnetdcpki.victim.strikeforce.net. hostmaster.victim.strikeforce.net. 60 900 600 86400 3600
+victim.strikeforce.net.	600	IN	A	10.0.0.10
+victim.strikeforce.net.	3600	IN	NS	vnetdcpki.victim.strikeforce.net.
+_msdcs.victim.strikeforce.net. 3600 IN	NS	vnetdcpki.victim.strikeforce.net.
+_gc._tcp.Default-First-Site-Name._sites.victim.strikeforce.net.	600 IN SRV 0 100 3268 vnetdcpki.victim.strikeforce.net.
+_kerberos._tcp.Default-First-Site-Name._sites.victim.strikeforce.net. 600 IN SRV 0 100 88 vnetdcpki.victim.strikeforce.net.
+_ldap._tcp.Default-First-Site-Name._sites.victim.strikeforce.net. 600 IN SRV 0 100 389 vnetdcpki.victim.strikeforce.net.
+_gc._tcp.victim.strikeforce.net. 600 IN	SRV	0 100 3268 vnetdcpki.victim.strikeforce.net.
+_kerberos._tcp.victim.strikeforce.net. 600 IN SRV 0 100 88 vnetdcpki.victim.strikeforce.net.
+_kpasswd._tcp.victim.strikeforce.net. 600 IN SRV 0 100 464 vnetdcpki.victim.strikeforce.net.
+_ldap._tcp.victim.strikeforce.net. 600 IN SRV	0 100 389 vnetdcpki.victim.strikeforce.net.
+_kerberos._udp.victim.strikeforce.net. 600 IN SRV 0 100 88 vnetdcpki.victim.strikeforce.net.
+_kpasswd._udp.victim.strikeforce.net. 600 IN SRV 0 100 464 vnetdcpki.victim.strikeforce.net.
+DomainDnsZones.victim.strikeforce.net. 600 IN A	10.0.0.10
+_ldap._tcp.Default-First-Site-Name._sites.DomainDnsZones.victim.strikeforce.net. 600 IN	SRV 0 100 389 vnetdcpki.victim.strikeforce.net.
+_ldap._tcp.DomainDnsZones.victim.strikeforce.net. 600 IN SRV 0 100 389 vnetdcpki.victim.strikeforce.net.
+ForestDnsZones.victim.strikeforce.net. 600 IN A	10.0.0.10
+_ldap._tcp.Default-First-Site-Name._sites.ForestDnsZones.victim.strikeforce.net. 600 IN	SRV 0 100 389 vnetdcpki.victim.strikeforce.net.
+_ldap._tcp.ForestDnsZones.victim.strikeforce.net. 600 IN SRV 0 100 389 vnetdcpki.victim.strikeforce.net.
+vnetdcpki.victim.strikeforce.net. 3600 IN A	10.0.0.10
+VNETDTAA.victim.strikeforce.net. 1200 IN A	10.0.2.100
+VNETDTBR.victim.strikeforce.net. 1200 IN A	10.0.3.100
+VNETDTCC.victim.strikeforce.net. 3600 IN A	10.0.4.100
+VNETDTDD.victim.strikeforce.net. 3600 IN A	10.0.1.101
+VNETDTFF.victim.strikeforce.net. 1200 IN A	10.0.5.100
+VNETDTGG.victim.strikeforce.net. 1200 IN A	10.0.5.101
+VNETDTHH.victim.strikeforce.net. 3600 IN A	10.0.6.100
+VNETDTPT.victim.strikeforce.net. 1200 IN A	10.0.1.100
+VNETDTZZ.victim.strikeforce.net. 1200 IN A	10.0.10.100
+VNETENG01.victim.strikeforce.net. 3600 IN A	10.0.4.101
+VNETINET.victim.strikeforce.net. 1200 IN A	10.0.0.14
+VNETLOGCAP.victim.strikeforce.net. 3600	IN A	10.0.0.20
+VNETMAILSQL.victim.strikeforce.net. 1200 IN A	10.0.0.11
+VNETMARK01.victim.strikeforce.net. 3600	IN A	10.0.3.101
+VNETMSDB.victim.strikeforce.net. 3600 IN A	10.0.0.18
+VNETPFS.victim.strikeforce.net.	3600 IN	A	10.0.0.17
+VNETUBU01.victim.strikeforce.net. 3600 IN A	10.0.0.15
+VNETUNIXDB.victim.strikeforce.net. 3600	IN A	10.0.0.19
+VNETVOIP.victim.strikeforce.net. 3600 IN A	10.0.0.12
+victim.strikeforce.net.	3600	IN	SOA	vnetdcpki.victim.strikeforce.net. hostmaster.victim.strikeforce.net. 60 900 600 86400 3600
+;; Query time: 2 msec
+;; SERVER: 10.0.0.10#53(10.0.0.10)
+;; WHEN: Sat Jul 11 20:27:10 2015
+;; XFR size: 40 records (messages 1, bytes 1846)
+

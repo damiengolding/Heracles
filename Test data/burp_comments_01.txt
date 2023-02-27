@@ -1,0 +1,36 @@
+[if lt IE 7]><html class="ie6" lang="en-gb" XMLNS:bp=""><![endif]
+[if IE 7]><html class="ie7" lang="en-gb" XMLNS:bp=""><![endif]
+[if IE 8]><html class="ie8" lang="en-gb" XMLNS:bp=""><![endif]
+[if gt IE 8]><!
+<![endif]
+[if gte IE 8]><!
+[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="https://login.benpal.com/Content/Styles/Min/SignOn-IE/sprites.min.css?1.0.5863.17505" media="screen, projection" ></link>
+<![endif]
+load remote jquery
+fall back to local
+load remote jquery validate
+load everything else
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+Modernizr 2.6.2 (Custom Build) | MIT & BSD
+ * Build: http://modernizr.com/download/#-borderradius-cssgradients-shiv-cssclasses-testprop-testallprops-prefixes-domprefixes-load
+! jQuery v1.8.3 jquery.com | jquery.org/license
+! jQuery Validation Plugin - v1.11.1 - 3/22/2013\n* https://github.com/jzaefferer/jquery-validation
+* Copyright (c) 2013 JÃ¶rn Zaefferer; Licensed MIT
+P
+[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="https://login.benpal.com/Content/Styles/Min/IE/style.min.css?1.0.5863.17505" media="screen, projection" ></link>
+<link rel="stylesheet" type="text/css" href="https://login.benpal.com/Content/Styles/Min/SignOn-IE/sprites.min.css?1.0.5863.17505" media="screen, projection" ></link>
+<![endif]
+sleeve
+content_main
+content
+/error_messages

@@ -1,0 +1,11 @@
+microsoft.com
+ibm.com
+dxc.com
+google.com
+sun.com
+bing.com
+facebook.com
+twitter.com
+github.com
+youtube.com
+amazon.com
